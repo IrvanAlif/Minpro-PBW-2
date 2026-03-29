@@ -7,40 +7,44 @@ Website portofolio pribadi yang bersifat dinamis, dibangun menggunakan PHP, MySQ
 ## 📸 Tampilan Website
 
 ### Halaman Home (Hero Section)
-<!-- [TARUH SCREENSHOT TAMPILAN HOME / HERO SECTION DI SINI]
-     Isi: foto profil, nama, jabatan, statistik (semester, koordinator, sertifikat), tombol CTA -->
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c97e7981-4984-4c0d-9970-2e7191510d42" />
+
 
 ---
 
-### Halaman About Me
-<!-- [TARUH SCREENSHOT TAMPILAN ABOUT ME DI SINI]
-     Isi: foto, bio singkat, info lokasi/email/status/jurusan, progress bar skills -->
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cd76479-460e-4b5f-9ef9-2dbcfcd62262" />
 
 ---
 
 ### Skills & Pengalaman
-<!-- [TARUH SCREENSHOT BAGIAN SKILLS DAN KARTU PENGALAMAN DI SINI]
-     Isi: progress bar skills, kartu-kartu pengalaman organisasi -->
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b616856a-7f55-4982-b5fd-53b8c1ad00df" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b801e14b-6e61-4b58-a209-3209c3200a62" />
+
+
 
 ---
 
 ### Halaman Certificates
-<!-- [TARUH SCREENSHOT TAMPILAN SECTION SERTIFIKAT DI SINI]
-     Isi: grid kartu sertifikat dengan warna berbeda-beda -->
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2153adf6-5722-49dd-b878-b1db1fe847c4" />
 
 ---
 
 ### Tampilan Mobile / Responsif
-<!-- [TARUH SCREENSHOT TAMPILAN DI HP / LAYAR KECIL DI SINI]
-     Opsional tapi nilai tambah: tunjukkan tampilan navbar collapse & layout mobile -->
+<img width="352" height="761" alt="image" src="https://github.com/user-attachments/assets/6be85fa0-fa8a-4ecc-b872-7a391f3c7ede" />
+
 
 ---
 
 ## 🗂️ Struktur Project
 
+<img width="224" height="499" alt="image" src="https://github.com/user-attachments/assets/1fbcf55f-27f6-484b-9a65-ae59fa82a36f" />
+
+
 ```
 portofolio/
-├── index.php            # Halaman utama (dinamis dari DB + Vue.js)
+├── index.php            # Halaman utama 
 ├── config/
 │   └── koneksi.php      # Konfigurasi koneksi database
 ├── Style/
@@ -112,8 +116,3 @@ http://localhost/portofolio/
 - **Navbar** — navigasi tetap di atas (sticky) dengan efek blur
 
 ---
-
-## 👤 Author
-
-**Irvan Alif**
-Mahasiswa Sistem Informasi — Universitas Mulawarman
