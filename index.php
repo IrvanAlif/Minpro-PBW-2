@@ -2,10 +2,10 @@
 require_once 'config/koneksi.php';
 
 $profil     = $conn->query("SELECT * FROM profil    LIMIT 1")->fetch_assoc();
-$statistik  = $conn->query("SELECT * FROM statistik ORDER BY urutan ASC")->fetch_all(MYSQLI_ASSOC);
-$skills     = $conn->query("SELECT * FROM skills    ORDER BY urutan ASC")->fetch_all(MYSQLI_ASSOC);
-$pengalaman = $conn->query("SELECT * FROM pengalaman ORDER BY urutan ASC")->fetch_all(MYSQLI_ASSOC);
-$sertifikat = $conn->query("SELECT * FROM sertifikat ORDER BY urutan ASC")->fetch_all(MYSQLI_ASSOC);
+$statistik  = $conn->query("SELECT * FROM statistik ORDER BY id ASC")->fetch_all(MYSQLI_ASSOC);
+$skills     = $conn->query("SELECT * FROM skills    ORDER BY id ASC")->fetch_all(MYSQLI_ASSOC);
+$pengalaman = $conn->query("SELECT * FROM pengalaman ORDER BY id ASC")->fetch_all(MYSQLI_ASSOC);
+$sertifikat = $conn->query("SELECT * FROM sertifikat ORDER BY id ASC")->fetch_all(MYSQLI_ASSOC);
 
 $cert_style = [
     1 => ['ikon' => 'bi-router',           'warna' => 'linear-gradient(135deg, #29323c, #485563)'],
